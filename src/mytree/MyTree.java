@@ -99,6 +99,7 @@ public class MyTree {
         else return T.data + tongTrong(T.left) + tongTrong(T.right);
     }
     int tongTrong(){
+        System.out.println("Them cho co moi");
         return tongTrong(root);
     }
     
